@@ -1,0 +1,28 @@
+.roleCard {
+  background-color: var(--pico-secondary-background);
+  color: var(--pico-secondary-inverse);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  aspect-ratio: 64/89;
+  flex-direction: column;
+  gap: 40px;
+  font-size: x-large;
+}
+
+.playerName {
+  font-size: xx-large;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons button {
+  flex: 1;
+}

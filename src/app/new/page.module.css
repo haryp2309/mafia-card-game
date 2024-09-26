@@ -1,0 +1,76 @@
+.playersContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.playerField {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.playerField label {
+  width: 100px;
+}
+
+.playerField input {
+  margin: 0;
+}
+
+.playerCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+.playerCounterButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.playerCounter button {
+  padding: 0;
+  height: 40px;
+  aspect-ratio: 1/1;
+  font-size: 1.3em;
+}
+
+.playerCounter label {
+  font-size: 1.8em;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.roleCounters {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  grid-template-columns: [label-start] min-content [counter-start] min-content [add-start] 30px [subtract-start] 40px;
+  justify-content: left;
+}
+
+.roleCounters label {
+  margin: 0;
+}
+
+.roleCounters label.name {
+  grid-column-start: label-start;
+}
+
+.roleCounters button {
+  padding: 0;
+  height: 30px;
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

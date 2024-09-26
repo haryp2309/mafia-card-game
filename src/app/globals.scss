@@ -1,0 +1,11 @@
+@use "@picocss/pico/scss/pico";
+
+html {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  max-width: 700px;
+}
